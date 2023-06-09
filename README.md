@@ -1,29 +1,24 @@
-# Text Analysis and Sentiment Classification
+## Text Analysis and Sentiment Classification Showcase
 
-This portfolio project focuses on text analysis and sentiment classification using various techniques. The project includes two main files that explore different approaches and models for sentiment analysis.
+## Projects
 
-## Project Overview
+1. **Introducing Text Analysis Techniques - A Comprehensive Tutorial**
+   - File: Introducing Text Analysis Techniques - A Comprehensive Tutorial.ipynb
+   - Description: This tutorial covers a wide range of text analysis techniques, focusing on individual sentences. It explores topics such as text cleaning, HTML parsing, stemming, and part-of-speech tagging. Code examples and explanations are provided using Python libraries like NLTK and BeautifulSoup.
 
-The project consists of the following files:
-
-1. **SentimentAnalysis_CountTfidf.ipynb**: This file provides a step-by-step tutorial on text analysis and sentiment classification. It covers techniques such as text cleaning, processing, and feature extraction using CountVectorizer and TfidfVectorizer. The Multinomial Naive Bayes model is used for sentiment classification. The file includes code examples, explanations, and comparisons of the results obtained from training and testing.
-
-2. **SentimentAnalysis_NLTK.ipynb**: In this file, another dataset is used to explore sentiment classification using the NLTK Sentiment Analyzer. The focus is on configuring and utilizing the built-in sentiment analysis capabilities of NLTK. A function is implemented to classify sentences based on the trained model.
-
-The main objective of this project is to provide a practical and comprehensive understanding of text analysis techniques and sentiment classification. By studying and experimenting with the code and methodologies presented in the files, users can gain valuable knowledge in the field of natural language processing.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Ensure you have Jupyter Notebook installed.
-3. Open the Jupyter Notebook files: `SentimentAnalysis_CountTfidf.ipynb` and `SentimentAnalysis_NLTK.ipynb`.
-4. Run the code cells to explore the text analysis techniques and sentiment classification approaches.
+2. **Sentiment Analysis using CountVectorizer and TfidfVectorizer**
+   - File: SentimentAnalysis_CountTfidf.ipynb
+   - Description: This file provides a step-by-step tutorial on sentiment analysis and classification. It covers techniques such as text cleaning, tokenization, and feature extraction using CountVectorizer and TfidfVectorizer. The sentiment classification is performed using the Multinomial Naive Bayes model.
+   - [Train.tsv Dataset](https://www.kaggle.com/datasets/soojung3421/traintsv?select=train.tsv)
+   - Description: This dataset is a TSV file containing labeled training data for sentiment analysis.
 
 
-## Conclusion
+3. **Sentiment Analysis using NLTK**
+   - File: SentimentAnalysis_NLTK.ipynb
+   - Description: This file demonstrates sentiment analysis using NLTK (Natural Language Toolkit) in Python. It explains the pre-processing steps, such as tokenization and stop word removal, and utilizes the Vader sentiment analyzer for sentiment classification. The NLTK's built-in sentiment analysis capabilities are explored and a function is implemented to classify sentences based on a trained model.
+   - [Amazon Reviews Dataset](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews?select=train.ft.txt.bz2)
+   - Description: This dataset is a BZ2-compressed file containing Amazon customer reviews. It can be used for sentiment analysis tasks.
 
-This project serves as a comprehensive guide to text analysis and sentiment classification. By studying the code and experimenting with different techniques and models, users can gain a deeper understanding of the subject matter. Feel free to explore the provided files, modify the code, and experiment with additional datasets to further enhance your knowledge in text analysis and sentiment classification.
+## Usage
 
-For any questions or suggestions, please feel free to reach out. Happy coding!
+Feel free to explore the project files and datasets in this repository. Each project folder contains the necessary files and instructions to run the code on your local machine. You can also adapt and modify the code to suit your own projects or learning purposes. Happy exploring!
